@@ -1,0 +1,31 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    background-origin: inherit;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,
+li{
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-fluid{
+    max-width: 100%;
+    margin: 0 auto;
+}
